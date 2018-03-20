@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment Software Security &amp; Testing: Type 0 XSS Attack</title>
+</head>
+<body class="wrapper">
+<h1>Type 0 XSS Attack</h1>
+<p>
+    <script>
+        document.write("<b>Current URL</b> : " + decodeURI(document.location.href));
+        <!-- We need to decode the URI because the most recent browsers encode the URI -->
+    </script>
+</p>
+</body>
+
+</html>

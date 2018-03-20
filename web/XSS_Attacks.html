@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment Software Security &amp; Testing: XSS Attacks</title>
+</head>
+<h1>Testing: XSS Attacks</h1>
+
+<body class="wrapper">
+    <header>
+        <h2 class="structural">Navagation bar</h2>
+        <nav>
+            <h2 class="structural">Navagation links</h2>
+            <ul>
+                <li class="currentpage">
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="type_0.html?default='<script>alert('You have been visited by the bogeyman')</script>'">Type 0</a>
+                </li>
+                <li>
+                    <a href="XSRF.jsp?<script>Hello</script>">XSRF</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
