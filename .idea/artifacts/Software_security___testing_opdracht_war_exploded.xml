@@ -6,6 +6,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="Software security &amp; testing opdracht" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="h2-1.4.197" />
+        </element>
       </element>
       <element id="javaee-facet-resources" facet="Software security &amp; testing opdracht/web/Web" />
     </root>

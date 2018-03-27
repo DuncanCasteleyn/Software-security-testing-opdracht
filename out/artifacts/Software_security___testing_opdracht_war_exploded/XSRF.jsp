@@ -34,7 +34,7 @@
         if (param != null) {
             try {
                 Memos.removeMemo("root", Long.parseLong(param)); //todo add session id %>
-<p>The memo with id " + param + " was successfully deleted.</p>
+<p>The memo with id <%= param %> was successfully deleted.</p>
 <%
 } catch (NumberFormatException e) { %>
 <p>Wrong delete parameter provided we required a numeric value.</p>
