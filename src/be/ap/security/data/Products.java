@@ -27,7 +27,7 @@ public class Products {
     public static String getProducts(String search) throws SQLException {
         StringBuilder query = new StringBuilder("select * FROM ARTICLES");
         if (search != null) {
-            query.append(" where PRODUCT_NAME = ").append(search);
+            query.append(" where PRODUCT_NAME like '").append(search).append("'");
         }
         query.append(';');
         Statement statement = conn.createStatement();

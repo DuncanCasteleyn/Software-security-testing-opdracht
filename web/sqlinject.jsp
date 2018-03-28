@@ -12,6 +12,14 @@
     <title>SQL Injection</title>
 </head>
 <body>
-    <% out.print(Products.getProducts(request.getParameter("search"))); %>
+    <%= Products.getProducts(request.getParameter("search")) %>
+    <form>
+        <form method="GET">
+            <label for="search"><b>Search on name</b></label>
+            <input type="text" placeholder="Enter product name" id="search" name="search" required>
+            <p>Use % as wildcard.</p>
+            <button type="submit">Search</button>
+        </form>
+    </form>
 </body>
 </html>

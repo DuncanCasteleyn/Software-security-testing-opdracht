@@ -41,13 +41,13 @@
 <% }
 }
 %>
-<p>Internal memos:</p>
+<h2>Internal memos:</h2>
 <article>
     <% for (Memo memo : Memos.getMemos().get(loggedInAs.getUsername())) { %>
-    <h2>Memo id: <%= memo.getId() %>
-    </h2>
-    <h3>Memo author: <%= memo.getAuthor() %>
+    <h3>Memo id: <%= memo.getId() %>
     </h3>
+    <h4>Memo author: <%= memo.getAuthor() %>
+    </h4>
     <p><%= memo.getText() %>
     </p>
     <p>Created on  <%= memo.getCreationDate().toString() %>
