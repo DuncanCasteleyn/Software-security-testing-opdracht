@@ -33,7 +33,7 @@
         String param = request.getParameter("delete");
         if (param != null) {
             try {
-                Memos.removeMemo("root", Long.parseLong(param)); //todo add session id %>
+                Memos.removeMemo("root", Long.parseLong(param)); %>
 <p>The memo with id <%= param %> was successfully deleted.</p>
 <%
 } catch (NumberFormatException e) { %>
@@ -43,7 +43,7 @@
 %>
 <p>Internal memos:</p>
 <article>
-    <% for (Memo memo : Memos.getMemos().get(loggedInAs.getUsername())) { //todo add session %>
+    <% for (Memo memo : Memos.getMemos().get(loggedInAs.getUsername())) { %>
     <h2>Memo id: <%= memo.getId() %>
     </h2>
     <h3>Memo author: <%= memo.getAuthor() %>
@@ -52,7 +52,7 @@
     </p>
     <p>Created on  <%= memo.getCreationDate().toString() %>
     </p>
-    <!-- todo add delete link -->
+    <p><a href="XSRF.jsp?delete=<%= memo.getId() %>">Delete memo</a></p>
     <% }
     } else {
         %>
