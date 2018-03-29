@@ -4,15 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Assignment Software Security &amp; Testing: Type 0 XSS Attack</title>
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+    <link href='css/global.css' rel='stylesheet'/>
 </head>
-<body class="wrapper">
-<h1>Type 0 XSS Attack</h1>
-<p>
-    <script>
-        document.write("<b>Current URL</b> : " + decodeURI(document.location.href));
-        <!-- We need to decode the URI because the most recent browsers encode the URI -->
-    </script>
-</p>
+<body>
+<h1 class="structural">Type 0 XSS Attack</h1>
+<section id="mainContent">
+    <div class="wrapper">
+        <h2>
+            This page shows the current URL you are on, using document.write.
+        </h2>
+        <p>
+            <script>
+                document.write("<b>Current URL</b> : " + decodeURI(document.location.href));
+                <!-- We need to decode the URI because the most recent browsers encode the URI -->
+            </script>
+        </p>
+    </div>
+</section>
 </body>
 
 </html>

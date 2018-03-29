@@ -4,11 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Assignment Software Security &amp; Testing: XSS Attacks</title>
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+    <link href='css/global.css' rel='stylesheet'/>
 </head>
-<h1>Testing: XSS Attacks</h1>
+<h1 class="structural">Testing: XSS Attacks</h1>
 
-<body class="wrapper">
-    <header>
+<body>
+<header>
+    <div class="wrapper">
         <h2 class="structural">Navagation bar</h2>
         <nav>
             <h2 class="structural">Navagation links</h2>
@@ -17,7 +20,9 @@
                     <a href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="type_0.html?default='<script>alert('You have been visited by the bogeyman')</script>'">Type 0</a>
+                    <a href="type_0.html?default='<script>alert('You have been visited by the bogeyman')</script>'"
+                       target="_blank">Type
+                        0</a>
                 </li>
                 <li>
                     <a href="XSRF.jsp?<script>Hello</script>" target="_blank">XSRF</a>
@@ -27,7 +32,57 @@
                 </li>
             </ul>
         </nav>
-    </header>
+    </div>
+</header>
+<section id="mainContent">
+    <div class="wrapper">
+        <h1>Instructions</h1>
+        <h2>Used browser</h2>
+        <p>The browser that was used to test the exploits is Firefox. Internet explorer and Chrome both block most
+            attacks,
+            Firefox does not because it strictly follows the http standard rules</p>
+        <h2>Index page</h2>
+        <p>The index page contains all links to the pages that have been created for this project in the top bar </p>
+        <p>On the index page all links will be opened in a new tab so you can leave the tabs open for reviewing except
+            the XSS Attacks link because that brings you to a page with a list of XSS attack pages.</p>
+        <h2>XSS Attacks</h2>
+        <p>This page contains navigation to the various XSS attacks, these links will also open in a new page.</p>
+        <h3>Type 0</h3>
+        <p>The type 0 attack page uses a dom document.write to display the current URL. Because of this it's vulnerable
+            for
+            DOM0
+            attacks anything in the url will be executed.</p>
+        <p>As an example the url on the navigation page includes a script alert that is executed without much
+            issues.</p>
+        <h3>XSRF</h3>
+        <p>You can log into this page with the username: "root" and the password: "root".</p>
+        <p>You should end up on the same page but this time but with memos. This means a cookie loggedInAs with a random
+            generated is should be saved on the browser.</p>
+        <p>You can then close the browser open it again and enter the url "http://localhost:8080/XSRF.jsp?delete=1" to
+            delete
+            one of the memos.</p>
+        <p>You can reset the memos to their original state by pressing the reset memos button under the memos.</p>
+        <h3>Header splitting</h3>
+        <p>This is the only attack i was not able to replicate using a .jsp page.</p>
+        <p>The value to perform such an attack is already filled you'll notice that once you submit it you get a page
+            that says "Welcome Hacker manContent-Length: 166Content-Type: text/html;charset=UTF-8hello".
+        </p>
+        <p>You'll notice that if you refresh the page you will only get Hacker man and if you check your cookies you'll
+            see the
+            actual value of the cookie that is being read which is "Hacker manContent-Length: 166Content-Type:
+            text/html"</p>
+        <p>This is because the issue has been resolved since Tomcat 6 and tomcat 5 requires jre 5 which i can't run on
+            this server because i'm running a java 9 application on this server.</p>
+        <h2>SQL injection</h2>
+        <p>You'll see a list of items you can search on those items by entering for example
+            "http://localhost:8080/sqlinject.jsp?search=fuze%20tea".</p>
+        <p>if you want to destroy this database enter
+            "http://localhost:8080/sqlinject.jsp?search=%27%3B+drop+table+ARTICLES%3B--" then reload the page and
+            enjoy the 500 error, after doing this however you will be unable to perform further sql commands.</p>
+        <p>If you had no idea which table was being used you could have used
+            "http://localhost:8080/sqlinject.jsp?search=%27--"
+            to cause an exception revealing the sql syntax</p>
+    </div>
+</section>
 </body>
-
 </html>

@@ -3,7 +3,10 @@ package be.ap.security.data;
 import be.ap.security.entities.WebsiteUser;
 
 import javax.servlet.http.Cookie;
-import java.util.*;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
 
 public class WebsiteUsers {
     private static final HashSet<WebsiteUser> websiteUsers;
@@ -19,13 +22,13 @@ public class WebsiteUsers {
     }
 
     public static WebsiteUser getSession(Cookie[] cookies) {
-        if(cookies == null) {
+        if (cookies == null) {
             throw new IllegalArgumentException("Cookies can't be null");
         }
-            Cookie loggedInAs = Arrays.stream(cookies).filter(cookie -> cookie.getName().equals("loggedInAs")).findFirst().orElse(null);
-            if (loggedInAs != null) {
-                return sessions.get(loggedInAs.getValue());
-            }
+        Cookie loggedInAs = Arrays.stream(cookies).filter(cookie -> cookie.getName().equals("loggedInAs")).findFirst().orElse(null);
+        if (loggedInAs != null) {
+            return sessions.get(loggedInAs.getValue());
+        }
         return null;
     }
 

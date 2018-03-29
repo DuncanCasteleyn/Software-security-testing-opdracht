@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="h2-1.4.197">
     <CLASSES>
-      <root url="jar://C:/Software security en testing/apache-tomcat-9.0.0.M26/h2/bin/h2-1.4.197.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/h2-1.4.197.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

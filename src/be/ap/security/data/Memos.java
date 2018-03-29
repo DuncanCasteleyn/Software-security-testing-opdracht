@@ -6,7 +6,7 @@ import java.time.OffsetDateTime;
 import java.util.*;
 
 public class Memos {
-    private static HashMap<String ,HashSet<Memo>> memos;
+    private static HashMap<String, HashSet<Memo>> memos;
 
     static {
         HashSet<Memo> set = new HashSet<>(Arrays.asList(new Memo(0, "Darth vader", "Must obtain more power", OffsetDateTime.now()), new Memo(1, "Snoke", "Must lure more jedis to the dark side.", OffsetDateTime.now())));
@@ -22,7 +22,13 @@ public class Memos {
         memos.get(key).removeIf(memo -> memo.getId() == id);
     }
 
-    public static void addMemo(String key,Memo memo) {
+    /*public static void addMemo(String key, Memo memo) {
         memos.get(key).add(memo);
+    }*/
+
+    public static void reset()  {
+        HashSet<Memo> set = new HashSet<>(Arrays.asList(new Memo(0, "Darth vader", "Must obtain more power", OffsetDateTime.now()), new Memo(1, "Snoke", "Must lure more jedis to the dark side.", OffsetDateTime.now())));
+        memos = new HashMap<>();
+        memos.put("root", set);
     }
 }

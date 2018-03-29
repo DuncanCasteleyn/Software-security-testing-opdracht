@@ -7,13 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8206371-112d-426b-aee5-4067ff90501c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/ap/security/data/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/ap/security/data/Products.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/XSRF.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/XSRF.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/XSS_Attacks.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/XSS_Attacks.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/instructions.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/instructions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/sqlinject.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/sqlinject.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,27 +58,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Products.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/be/ap/security/data/Products.java">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="32" column="53" lean-forward="true" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
-              <folding>
-                <marker date="1522247767821" expanded="true" signature="571:814" ph="CREATE TABLE... ARTICLES" />
-                <marker date="1522247767821" expanded="true" signature="601:654" ph="INSERT INTO ARTICLES... " />
-                <marker date="1522247767821" expanded="true" signature="682:731" ph="INSERT INTO ARTICLES... " />
-                <marker date="1522247767821" expanded="true" signature="759:813" ph="INSERT INTO ARTICLES... " />
-                <marker date="1522247767821" expanded="true" signature="1063:1076" ph="Select table... user_tables" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="XSRF.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/XSRF.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+            <state relative-caret-position="1026">
+              <caret line="75" column="62" selection-start-line="75" selection-start-column="62" selection-end-line="75" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -90,45 +70,51 @@
       <file leaf-file-name="XSS_Attacks.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/XSS_Attacks.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="635">
+              <caret line="83" column="62" selection-start-line="83" selection-start-column="62" selection-end-line="83" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.html">
+      <file leaf-file-name="XSRF.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/XSRF.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="652">
+              <caret line="42" column="75" lean-forward="true" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="instructions.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/instructions.html">
+      <file leaf-file-name="Memos.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/be/ap/security/data/Memos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+            <state relative-caret-position="442">
+              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sqlinject.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sqlinject.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/sqlinject.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+            <state relative-caret-position="323">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Products.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/be/ap/security/data/Products.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+              <folding>
+                <marker date="1522318264827" expanded="true" signature="571:814" ph="CREATE TABLE... ARTICLES" />
+                <marker date="1522318264827" expanded="true" signature="601:654" ph="INSERT INTO ARTICLES... " />
+                <marker date="1522318264827" expanded="true" signature="682:731" ph="INSERT INTO ARTICLES... " />
+                <marker date="1522318264827" expanded="true" signature="759:813" ph="INSERT INTO ARTICLES... " />
+                <marker date="1522318264827" expanded="true" signature="1063:1076" ph="Select table... user_tables" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,6 +128,7 @@
         <option value="jsf" />
         <option value="Jsp File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -149,6 +136,9 @@
     <findStrings>
       <find>delete</find>
       <find>addcookie</find>
+      <find>last</find>
+      <find>:last</find>
+      <find>h1</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,7 +149,6 @@
       <list>
         <option value="$PROJECT_DIR$/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/type_1.jsp" />
-        <option value="$PROJECT_DIR$/web/type_0.html" />
         <option value="$PROJECT_DIR$/src/be/ap/security/entities/Memo.java" />
         <option value="$PROJECT_DIR$/src/be/ap/security/entities/WebsiteUser.java" />
         <option value="$PROJECT_DIR$/src/be/ap/security/data/WebsiteUsers.java" />
@@ -167,15 +156,18 @@
         <option value="$PROJECT_DIR$/web/sqlinject.xhtml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/a1e7d2bc-bec6-4f84-91de-82dea2944539/console.sql" />
         <option value="$PROJECT_DIR$/META-INF/context.xml" />
-        <option value="$PROJECT_DIR$/src/be/ap/security/data/Memos.java" />
         <option value="$PROJECT_DIR$/web/headersplitting_old.jsp" />
-        <option value="$PROJECT_DIR$/web/headersplitting.jsp" />
-        <option value="$PROJECT_DIR$/web/XSS_Attacks.html" />
-        <option value="$PROJECT_DIR$/web/XSRF.jsp" />
-        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/css/index.css" />
         <option value="$PROJECT_DIR$/web/instructions.html" />
+        <option value="$PROJECT_DIR$/web/type_0.html" />
+        <option value="$PROJECT_DIR$/web/headersplitting.jsp" />
         <option value="$PROJECT_DIR$/src/be/ap/security/data/Products.java" />
         <option value="$PROJECT_DIR$/web/sqlinject.jsp" />
+        <option value="$PROJECT_DIR$/web/css/global.css" />
+        <option value="$PROJECT_DIR$/src/be/ap/security/data/Memos.java" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/XSS_Attacks.html" />
+        <option value="$PROJECT_DIR$/web/XSRF.jsp" />
       </list>
     </option>
   </component>
@@ -199,16 +191,18 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="953" />
     <option name="width" value="974" />
-    <option name="height" value="1167" />
+    <option name="height" value="982" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,7 +229,55 @@
             <path>
               <item name="Software security &amp; testing opdracht" type="b2602c69:ProjectViewProjectNode" />
               <item name="Software security &amp; testing opdracht" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Software_security___testing_opdracht_war_exploded" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Software security &amp; testing opdracht" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software security &amp; testing opdracht" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Software_security___testing_opdracht_war_exploded" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Software security &amp; testing opdracht" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software security &amp; testing opdracht" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="Software_security___testing_opdracht_war_exploded" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Software security &amp; testing opdracht" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software security &amp; testing opdracht" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Software security &amp; testing opdracht" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software security &amp; testing opdracht" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Software security &amp; testing opdracht" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software security &amp; testing opdracht" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Software security &amp; testing opdracht" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software security &amp; testing opdracht" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Software security &amp; testing opdracht" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Software security &amp; testing opdracht" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Software security &amp; testing opdracht" type="b2602c69:ProjectViewProjectNode" />
@@ -245,9 +287,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,7 +295,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="H2" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/SQL Dialects" value="H2" />
-    <property name="last_opened_file_path" value="C:/Software security en testing/apache-tomcat-9.0.0.M26/h2/bin/h2-1.4.197.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/h2-1.4.197.jar!/" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -327,7 +367,6 @@
       <listeners />
     </configuration>
     <configuration name="Tomcat 9.0.0.M26" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M26" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="Software security &amp; testing opdracht:war exploded">
           <settings>
@@ -433,11 +472,14 @@
       <workItem from="1522134572473" duration="6260000" />
       <workItem from="1522143393064" duration="5604000" />
       <workItem from="1522175058590" duration="19967000" />
+      <workItem from="1522310706584" duration="8090000" />
+      <workItem from="1522329551621" duration="311000" />
+      <workItem from="1522331501398" duration="226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54413000" />
+    <option name="totallyTimeSpent" value="64294000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -449,35 +491,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="991" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50159913" side_tool="true" weight="0.32851636" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32851636" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
-      <window_info anchor="bottom" id="Database Changes" weight="0.32947975" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37076023" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32947975" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32934782" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32851636" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.32851636" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50159913" side_tool="true" weight="0.3282532" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32851636" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
+      <window_info anchor="bottom" id="Database Changes" order="8" weight="0.32947975" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32947975" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.3278867" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32947975" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10074627" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21334793" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37037036" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32934782" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="8" sideWeight="0.4978678" weight="0.35438597" />
@@ -485,15 +525,14 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32982457" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.4978678" weight="0.35438597" />
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.4978678" weight="0.35438597" />
       <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32851636" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -506,20 +545,22 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32934782" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
+      <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32982457" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32982457" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.32995737" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20682302" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Database" order="6" visible="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.37076023" />
+      <window_info anchor="bottom" id="Find" order="2" />
       <window_info anchor="bottom" id="SQL Generator" order="15" sideWeight="0.4978678" weight="0.32934782" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.37076023" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -530,19 +571,67 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/be/ap/security/data/Products.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+          <folding>
+            <marker date="1522318264827" expanded="true" signature="571:814" ph="CREATE TABLE... ARTICLES" />
+            <marker date="1522318264827" expanded="true" signature="601:654" ph="INSERT INTO ARTICLES... " />
+            <marker date="1522318264827" expanded="true" signature="682:731" ph="INSERT INTO ARTICLES... " />
+            <marker date="1522318264827" expanded="true" signature="759:813" ph="INSERT INTO ARTICLES... " />
+            <marker date="1522318264827" expanded="true" signature="1063:1076" ph="Select table... user_tables" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/XSRF.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/XSS_Attacks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/instructions.html" />
+    <entry file="file://$PROJECT_DIR$/web/sqlinject.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/XSS_Attacks.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/XSRF.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/ap/security/data/Memos.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -572,18 +661,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/XSRF.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/type_0.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Software security &amp; testing opdracht.iml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -613,9 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Software security &amp; testing opdracht.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -624,18 +704,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/XSRF.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/type_0.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Software security &amp; testing opdracht.iml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -646,35 +720,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WEB-INF/web.xml" />
     <entry file="file://$PROJECT_DIR$/web/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/Software security &amp; testing opdracht.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/58098230-1f9a-4372-bd46-27a1ce9373e6/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/be/ap/security/entities/Memo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="imports" />
-            <element signature="e#470#471#0" />
-            <element signature="e#499#500#0" />
-            <element signature="e#543#544#0" />
-            <element signature="e#579#580#0" />
-            <element signature="e#610#611#0" />
-            <element signature="e#637#638#0" />
-            <element signature="e#677#678#0" />
-            <element signature="e#709#710#0" />
-            <element signature="e#756#757#0" />
-            <element signature="e#791#792#0" />
-            <element signature="e#855#856#0" />
-            <element signature="e#903#904#0" />
-            <element signature="e#930#931#0" />
-            <element signature="e#955#956#0" />
-            <element signature="e#989#990#0" />
-            <element signature="e#1017#1018#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -682,11 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding>
-            <element signature="imports" />
-            <element signature="e#1133#1134#0" />
-            <element signature="e#1164#1165#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,9 +749,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/sqlinject.xhtml" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/a1e7d2bc-bec6-4f84-91de-82dea2944539/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/sql/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -768,12 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-568">
           <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding>
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#623#624#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -784,52 +819,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/ap/security/data/Memos.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/type_0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/headersplitting_nowork.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/headersplitting.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/instructions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/headersplitting_nowork.jsp" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -838,38 +828,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/XSS_Attacks.html">
+    <entry file="file://$PROJECT_DIR$/web/css/index.css" />
+    <entry file="file://$PROJECT_DIR$/web/instructions.html" />
+    <entry file="file://$PROJECT_DIR$/web/type_0.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="238">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/ap/security/data/Products.java">
+    <entry file="file://$PROJECT_DIR$/web/headersplitting.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="32" column="53" lean-forward="true" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
-          <folding>
-            <marker date="1522247767821" expanded="true" signature="571:814" ph="CREATE TABLE... ARTICLES" />
-            <marker date="1522247767821" expanded="true" signature="601:654" ph="INSERT INTO ARTICLES... " />
-            <marker date="1522247767821" expanded="true" signature="682:731" ph="INSERT INTO ARTICLES... " />
-            <marker date="1522247767821" expanded="true" signature="759:813" ph="INSERT INTO ARTICLES... " />
-            <marker date="1522247767821" expanded="true" signature="1063:1076" ph="Select table... user_tables" />
-          </folding>
+        <state relative-caret-position="1156">
+          <caret line="68" column="7" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/XSRF.jsp">
+    <entry file="file://$PROJECT_DIR$/web/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+        <state relative-caret-position="391">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/ap/security/data/Memos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/sqlinject.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+        <state relative-caret-position="323">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/ap/security/data/Products.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <marker date="1522318264827" expanded="true" signature="571:814" ph="CREATE TABLE... ARTICLES" />
+            <marker date="1522318264827" expanded="true" signature="601:654" ph="INSERT INTO ARTICLES... " />
+            <marker date="1522318264827" expanded="true" signature="682:731" ph="INSERT INTO ARTICLES... " />
+            <marker date="1522318264827" expanded="true" signature="759:813" ph="INSERT INTO ARTICLES... " />
+            <marker date="1522318264827" expanded="true" signature="1063:1076" ph="Select table... user_tables" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="75" column="62" selection-start-line="75" selection-start-column="62" selection-end-line="75" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/XSS_Attacks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="83" column="62" selection-start-line="83" selection-start-column="62" selection-end-line="83" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/XSRF.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="652">
+          <caret line="42" column="75" lean-forward="true" selection-start-line="42" selection-start-column="75" selection-end-line="42" selection-end-column="75" />
         </state>
       </provider>
     </entry>

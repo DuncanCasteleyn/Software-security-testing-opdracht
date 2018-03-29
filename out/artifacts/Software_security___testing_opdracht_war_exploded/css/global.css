@@ -1,0 +1,143 @@
+/**
+ * Global stylesheet for all html pages
+ *
+ * @author Duncan Casteleyn <Duncan.casteleyn@student.ap.be>
+ *
+ */
+
+/* GENERAL */
+
+html {
+    font-size: 0.625em; /* set 1 rem = 16px * 0.625 = 10px */
+    height: 100%;
+}
+
+* {
+    margin: 0; /* wipe out browser differences for default values */
+    padding: 0; /* wipe out browser differences for default values	*/
+    -webkit-box-sizing: border-box; /* use border-box box model everywhere */
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    content: none;
+}
+
+body {
+    font-family: Helvetica, Arial, serif;
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    min-width: 60rem;
+    width: 100%;
+    background: #353535;
+}
+
+table {
+    width: 100%;
+}
+
+a:visited {
+    color: cornflowerblue;
+}
+
+table td {
+    text-align: center;
+}
+
+#mainContent {
+    padding: 2.5em 0;
+}
+
+.wrapper {
+    max-width: 96rem;
+    margin: 0 1em;
+    background: inherit;
+}
+
+.structural {
+    position: absolute;
+    left: -9999px;
+}
+
+h1, h2, h3, h4 {
+    font-family: Anton, sans-serif;
+    font-size: 2.4em;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+#mainContent h2, #mainContent h3, #mainContent h4 {
+    color: #00A9FF;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+h4 {
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+
+header {
+    color: #000;
+    text-transform: uppercase;
+    background: #222222;
+}
+
+header a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 1.5em;
+}
+
+header ul {
+    font-size: 1.05em;
+    margin-bottom: 1em;
+}
+
+header ul:last-child {
+    margin-bottom: 0;
+}
+
+header .socialmedia li {
+    float: left;
+    margin: 0 0.1em;
+}
+
+header ul a {
+    color: #C7C7C7;
+    transition: 0.4s;
+    padding: 0.5em;
+}
+
+header ul a:hover {
+    color: #00A9FF;
+}
+
+header li {
+    display: inline;
+}
+
+header .socialmedia {
+    margin-right: 1em;
+}
+
+header .socialmedia a {
+    margin-right: 1em;
+}
+
+header p:first-child {
+    font-size: 3em;
+    font-family: Anton, sans-serif;
+}
+
+/* Media queries */
+
+@media (min-width: 62.5rem) {
+    /* 1000 px width */
+    .wrapper {
+        margin: 0 auto;
+    }
+}

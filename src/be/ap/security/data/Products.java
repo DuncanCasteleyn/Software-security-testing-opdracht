@@ -26,17 +26,18 @@ public class Products {
 
     public static String getProducts(String search) throws SQLException {
         StringBuilder query = new StringBuilder("select * FROM ARTICLES");
-        if (search != null) {
+        if (search != null && !search.equals("")) {
             query.append(" where PRODUCT_NAME like '").append(search).append("'");
         }
         query.append(';');
         Statement statement = conn.createStatement();
         ResultSet resultSet = statement.executeQuery(query.toString());
-
-        StringBuilder stringBuilder = new StringBuilder();
+        StringBuilder stringBuilder = new StringBuilder("<table><tr><th>Id</th><th>Product name</th><th>Price</th></tr>");
         while (resultSet.next()) {
-            stringBuilder.append("<p>id: ").append(resultSet.getString(1)).append(" name: ").append(resultSet.getString(2)).append(" Price: ").append(resultSet.getString(3)).append("</p>");
+            stringBuilder.append("<tr><td>").append(resultSet.getString(1)).append("</td><td>").append(resultSet.getString(2)).append("</td><td>").append(resultSet.getString(3)).append("</td></tr>");
         }
+        stringBuilder.append("</table>");
         return stringBuilder.toString();
+
     }
 }
